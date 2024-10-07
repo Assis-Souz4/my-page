@@ -1,0 +1,118 @@
+body {
+  background-color: var(--background-color);
+  position: relative;
+  min-height: 100vh;
+}
+
+.container-general {
+  padding-left: 15%;
+  padding-bottom: 2.5rem;
+}
+header {
+  max-width: 35%;
+  margin: 2.5% 0 10% 0;
+}
+.menu {
+  display: flex;
+  gap: 20%;
+}
+.menu-item {
+  font-size: var(--font-menu-size);
+  color: var(--tertiary-color);
+  font-family: var(--font-secundary);
+}
+.menu-item:hover {
+  color: var(--font-primary-color);
+}
+.main {
+  display: flex;
+  gap: 2.5%;
+  margin-bottom: 10%;
+}
+.content {
+  max-width: 35%;
+}
+.title-t1 {
+  font-size: var(--font-secundary-size);
+  margin-bottom: 10%;
+  text-align: start;
+  font-family: var(--font-secundary);
+}
+.curriculo-title-t2 {
+  font-size: larger;
+  margin-bottom: 5%;
+  font-family: var(--font-secundary);
+}
+
+.detail-t1 {
+  color: var(--tertiary-color);
+}
+.info-text {
+  font-size: var(--font-primary-size);
+  margin-bottom: 10%;
+  text-align: start;
+  font-family: var(--font-primary);
+}
+.abaout-info-text {
+  margin-bottom: 2%;
+  text-align: justify;
+}
+.curriculo-info-experiencia > li {
+  list-style: disc;
+}
+.container-links {
+  text-align: center;
+  padding-bottom: 30%;
+}
+.links-title-t2 {
+  font-size: var(--font-tertiary-size);
+  margin-bottom: 5%;
+  font-family: var(--font-secundary);
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+.links-item {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  /* border: 3px solid var(--tertiary-color); */
+  border-radius: 6px;
+  /* width: 30%; */
+  /* padding: 5px 10%; */
+  font-family: var(--font-primary);
+  border: 2px solid transparent;
+  border-radius: 100px;
+  padding: 2%;
+}
+.links-item:hover {
+  /* background-color:var(--hover-color); */
+  border: 2px solid var(--tertiary-color);
+}
+.links-item > img {
+  width: 30px;
+}
+.links-item:hover {
+  color: var(--tertiary-color);
+}
+.photo-perfil {
+  width: 90%;
+}
+.footer {
+  padding: 10px 0;
+  background-color: var(--tertiary-color);
+  text-align: center;
+  font-family: var(--font-primary);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+}
